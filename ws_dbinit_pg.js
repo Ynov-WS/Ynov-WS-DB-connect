@@ -27,7 +27,13 @@ client.connect()
                 name VARCHAR(100),
                 description VARCHAR(100),
                 mask_json VARCHAR(100)
-            )
+            );
+            CREATE TABLE IF NOT EXISTS ws_entries (
+                id SERIAL PRIMARY KEY,
+                id_mask integer NOT NULL,
+                FOREIGN KEY (id_mask) REFERENCES ws_masks(id),
+                mask_json VARCHAR(100)
+                );
         `;
 
         // Execute the query
