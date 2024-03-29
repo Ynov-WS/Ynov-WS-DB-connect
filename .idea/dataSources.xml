@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="defaultdb@mysql-2a07a4b1-tommosti1-4299.a.aivencloud.com" uuid="30247296-8a2f-4d53-b839-32ef462f9ad9">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://mysql-2a07a4b1-tommosti1-4299.a.aivencloud.com:23244/defaultdb</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="defaultdb@post-tropical-alexandre-12345.a.aivencloud.com" uuid="d6a848dc-e1d1-44a4-bfe0-e67c29f72b95">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://post-tropical-alexandre-12345.a.aivencloud.com:17703/defaultdb</jdbc-url>
     <data-source source="LOCAL" name="defaultdb@mysql-2a07a4b1-tommosti1-4299.a.aivencloud.com" uuid="01714180-2cd1-43c3-8807-184ae095c362">
       <driver-ref>mongo</driver-ref>
       <synchronize>true</synchronize>
